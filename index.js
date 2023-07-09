@@ -1,11 +1,14 @@
 
 
-const imagesContainer = document.querySelector('.images-container');
-imagesContainer.addEventListener('mouseenter', () => {
-  imagesContainer.classList.remove('hidden');
-});
-imagesContainer.addEventListener('mouseleave', () => {
-  imagesContainer.classList.add('hidden');
-});
+// const imagesContainer = document.getElementById('images-container');
 
-document.addEventListener('click', function(){console.log('clicked')})
+// const links = imagesContainer.querySelectorAll('a');
+
+// links.forEach(function(link){
+//     return link.classList.add('hidden')
+// })
+
+
+// imagesContainer.addEventListener('click', function(e){
+//     console.log((e.target.id))
+// })
