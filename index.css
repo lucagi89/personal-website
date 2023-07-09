@@ -4,11 +4,14 @@
     box-sizing: border-box;
 }
 
+html{
+    height: 100vh;
+}
+
 body{
     text-align: center;
     height: 100%;
     min-width: 390px;
-    max-height: 100%;
     background: url('./images/background.avif') no-repeat center center fixed;
     background-size:cover;
     color: whitesmoke;
