@@ -1,14 +1,12 @@
 
+const container = document.getElementById('container');
 
-// const imagesContainer = document.getElementById('images-container');
+//music
 
-// const links = imagesContainer.querySelectorAll('a');
+let music = `
+    <div class='music-container'>
+        <h1>Music has always been my main passion</h1>
+        <p></p>
+    </div>
+    `
 
-// links.forEach(function(link){
-//     return link.classList.add('hidden')
-// })
-
-
-// imagesContainer.addEventListener('click', function(e){
-//     console.log((e.target.id))
-// })
