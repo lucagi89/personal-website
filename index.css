@@ -12,6 +12,7 @@ body{
     background: url('./images/background.avif') no-repeat center center fixed;
     background-size:cover;
     color: whitesmoke;
+    border: solid red;
     font-family: 'Caveat', cursive;
     overflow: hidden;
     display: grid;
