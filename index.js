@@ -20,6 +20,16 @@ container.innerHTML = home;
 
 mainContainer.addEventListener('click', function(e){
     document.getElementById('images-container').classList.add('hidden')
+    document.getElementById('home-btn-container').classList.remove('hidden')
+
+    document.addEventListener('click', function(e){
+        if(e.target.id === 'home-btn'){
+            document.getElementById('images-container').classList.remove('hidden')
+            document.getElementById('home-btn-container').classList.add('hidden')
+            container.innerHTML = home;
+        }
+    })
+   
     if(e.target.id === 'music-link'){
         let music = `
     <div class='music-container'>

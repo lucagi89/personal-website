@@ -45,6 +45,19 @@ p{
     line-height: 20px;
 }
 
+.home-btn{
+    width:50px;
+    position: fixed;
+    left: 10px;
+    bottom:10px;
+}
+
+.home-btn img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 header,
 footer{
     background-color: rgba(0, 0, 0, 0.6);
@@ -283,6 +296,14 @@ p{
         line-height: 100px;
         padding: 0 60px;
     }
+
+    .home-btn{
+        width:80px;
+        left: 15px;
+        bottom:15px;
+    }
+
+
     .links{
         margin-top: 30px;
     }
