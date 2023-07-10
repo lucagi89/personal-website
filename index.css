@@ -5,13 +5,16 @@
 }
 
 html{
-    height: 100%;
+    height: 120vh;
+    border: solid yellow;
 }
 
 
 body{
     text-align: center;
     min-width: 390px;
+    height:100%;
+    border: solid red;
     background: url('./images/background.avif') no-repeat center center fixed;
     background-size:cover;
     background-attachment: fixed;
@@ -156,8 +159,45 @@ footer{
     border-radius: 5px;
 }
 
+.hidden{
+    display: none;
+}
 
 
+/*music*/
+
+.music-container{
+    background: rgba(0, 0, 0, 0.6);
+    padding:30px;
+    height: 100%;
+    width:100%;
+}
+
+.music-container p{
+
+    font-size: 15px;
+}
+.music-content{
+    max-width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.me-playing{
+    width: 200px;
+    height:150px;
+    border-radius: 5px;
+
+}
+
+audio{
+    width:200px;
+    height:20px;
+}
+
+audio::-webkit-media-controls-panel {
+    font-size: 15px;
+  } 
 
 
 
