@@ -40,6 +40,13 @@ h3{
     padding:40px;
 }
 
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 20px;
+    line-height: 20px;
+}
+
 header,
 footer{
     background-color: rgba(0, 0, 0, 0.6);
@@ -93,6 +100,7 @@ footer{
 .picture-container img{
     width:100%;
     max-height: 100%;
+
 }
 
 .picture-container,
@@ -166,6 +174,25 @@ footer{
 
 /*music*/
 
+audio{
+    width:200px;
+    height:20px;
+}
+
+
+
+audio::-webkit-media-controls-volume-slider,
+audio::-webkit-media-controls-volume-slider-container,
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-return-to-realtime-button,
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-enclosure-button{
+    display: none;
+  }
+ 
+
+
 .music-container{
     background: rgba(0, 0, 0, 0.6);
     padding:30px;
@@ -173,9 +200,14 @@ footer{
     width:100%;
 }
 
-.music-container p{
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
 
-    font-size: 15px;
+.music-container h3{
+    margin: 10px 0 0px 0;
+    padding: 0;
 }
 .music-content{
     max-width: 100%;
@@ -183,21 +215,32 @@ footer{
     flex-direction: column;
 }
 
+
+.image-songs{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.image-container{
+    width:50%;
+    
+}
+
 .me-playing{
-    width: 200px;
-    height:150px;
+    width: 100%;
+    height:100%;
     border-radius: 5px;
-
+    object-fit: cover;
 }
 
-audio{
-    width:200px;
-    height:20px;
+.songs div{
+    width:100%;
+    height:20%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-
-audio::-webkit-media-controls-panel {
-    font-size: 15px;
-  } 
 
 
 
@@ -262,6 +305,22 @@ audio::-webkit-media-controls-panel {
     .music-img{
         object-fit: cover;
     }
+
+    .image-songs{
+        justify-content: space-around;
+        height:400px;
+    }
+
+    .songs div{
+        height:20%;
+    }
+
+    audio{
+        width:250px;
+        height:30px;
+    }
+
+   
     
 
 }
