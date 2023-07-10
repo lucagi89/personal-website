@@ -68,17 +68,22 @@ mainContainer.addEventListener('click', function(e){
         let rome = 
         `<div class='rome-container'>
         <h1>Rome is my Eternal City</h1>
-        <p>Rome is my city. Obviously I mean The Eternal City, the one and unique Rome that you can find in central Italy. I was born e grew up there.
-            I’ve always been fascinated by the mysteries and stories that my city carries with it.
-            Somebody says that it is an open-sky museum and it is true, but is not just that.
-            Rome is many many things more, is the art and the culture, but it is also the Vatican and the Government. 
-            Rome is the luxury and the poverty of the immigrants who sleep in the stations. 
-            It is a walk under the colosseum, but it is also a night out in Trastevere, where you can find many restaurants and bars, full of any generation of people.
-            I especially love Rome in a summer night, because you can feel something in the air that is hard to describe, you know that something is going to happen and that Rome is gonna surprise you in some way. 
-            There is always something that you don’t know about Rome, even something that’s been under your nose for long time and you never noticed. 
-            Even if now I don’t leave there anymore, I feel like the more I stay away from Rome the more I need it and I can’t wait to go back.
-            I would have much more to say, but the reality is that I don’t think I’m good enough to say it all and also I don’t have much space on the page, so I stop here, hoping that one day you’ll know (if you don’t know already) what I tried to talk about.
-        </p>
+            <div class='rome-image'>
+                <p>Rome is my city. Obviously I mean The Eternal City, the one and unique Rome that you can find in central Italy. I was born e grew up there.
+                    I’ve always been fascinated by the mysteries and stories that my city carries with it.
+                    Somebody says that it is an open-sky museum and it is true, but is not just that.
+                    Rome is many many things more, is the art and the culture, but it is also the Vatican and the Government. 
+                    Rome is the luxury and the poverty of the immigrants who sleep in the stations. 
+                    It is a walk under the colosseum, but it is also a night out in Trastevere, where you can find many restaurants and bars, full of any generation of people.
+                    I especially love Rome in a summer night, because you can feel something in the air that is hard to describe, you know that something is going to happen and that Rome is gonna surprise you in some way. 
+                    There is always something that you don’t know about Rome, even something that’s been under your nose for long time and you never noticed. 
+                    Even if now I don’t leave there anymore, I feel like the more I stay away from Rome the more I need it and I can’t wait to go back.
+                    I would have much more to say, but the reality is that I don’t think I’m good enough to say it all and also I don’t have much space on the page, so I stop here, hoping that one day you’ll know (if you don’t know already) what I tried to talk about.
+                </p>
+                <div class='rome-pic-container'>
+                    <img src='./images/me-rome.png'class='rome-pic'>
+                </div>
+            </div>
         </div>
         `;
 

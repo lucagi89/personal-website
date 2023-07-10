@@ -6,7 +6,6 @@
 
 html{
     height: 120vh;
-    border: solid yellow;
 }
 
 
@@ -14,7 +13,6 @@ body{
     text-align: center;
     min-width: 390px;
     height:100%;
-    border: solid red;
     background: url('./images/background.avif') no-repeat center center fixed;
     background-size:cover;
     background-attachment: fixed;
@@ -242,6 +240,37 @@ p{
     justify-content: center;
 }
 
+/*rome*/
+
+.rome-container{
+    margin: 0 auto;
+    width:100%;
+
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.rome-image{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rome-pic-container{
+    width:80%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.rome-pic{
+    margin: 0 auto;
+    border-radius: 5px ;
+    width:100%;
+    height:80%;
+    object-fit: cover;
+}
+
+
 
 
 
@@ -320,6 +349,25 @@ p{
         height:30px;
     }
 
+    .rome-image{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .rome-image p{
+        display: block;
+        margin: 0 auto;
+        max-width:400px;
+    }
+
+    .rome-pic-container{
+        max-width:400px;
+    }
+    
+
    
     
 
@@ -329,4 +377,12 @@ p{
     footer{
         background-color: rgba(0, 0, 0, 0.8);
     }
+    .rome-image p{
+        max-width:600px;
+    }
+
+    .rome-pic-container{
+        max-width:600px;
+    }
+    
 }
