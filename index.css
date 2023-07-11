@@ -268,6 +268,7 @@ p{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    padding:30px;
 }
 
 
@@ -283,6 +284,31 @@ p{
     width:100%;
     height:80%;
     object-fit: cover;
+}
+
+/*--------------------Coding---------------------*/
+
+
+.projects-links{
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:15px;
+}
+
+.project-pic{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s;
+    border: solid 3px rgb(0, 0, 106);
+}
+
+.project-pic:hover{
+    transform: scale(1.1);
 }
 
 
@@ -410,6 +436,12 @@ p{
 
     .topic-pic-container{
         max-width:600px;
+    }
+
+    .projects-links{
+        
+        grid-template-columns: 150px 150px 150px;
+        grid-template-rows: 1fr 1fr;
     }
     
 }
