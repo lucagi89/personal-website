@@ -145,5 +145,45 @@ mainContainer.addEventListener('click', function(e){
         </div>
         `;
         container.innerHTML = finance;
+    }else if(e.target.id === 'hospitality-link'){
+        const hospitality =
+        `<div class='topic-container'>
+        <h1>Not Just a Plate</h1>
+            <div class='topic-image'>
+                <p>
+                I’ve been working in hospitality since when I moved to London. I have no shame on saying that I started by cleaning toilets and washing dishes, 
+                and sometimes I was cleaning toilets in the morning and washing dishes in the evening. As my English improved I started working more on the restaurant floor, 
+                at first just taking plates to the table and then taking guest orders as well.
+                Now I work for a fine dining restaurant in one of the best hotels in London.
+                After few years of experience, I can say that working in hospitality is not as easy as many people think. Especially in the fine dining and five stars world, 
+                you need to know what you’re talking about when talking to a guest and you need to know how to deal with different kinds of glitches that could happen in any normal service. 
+                Nowadays people really care on what they put in their mouth and really care about the experience that you deliver them when they walk in your restaurant.
+                Everybody is different, but working constantly with public, gives you the opportunity to start recognising the different kinds of people as soon as they walk in, and this gives you the opportunity to try anticipate their needs, 
+                which is a very sought for skill in hospitality.
+                I’m grateful to have had the chance to work in hospitality, because you have the possibility to meet a lot of people, among colleagues and guests, that can really shape and enrich your existence, and even if it’s hard, it is also fun.
+  
+                </p>
+                <div class='topic-pic-container'>
+                    <img src='./images/me-hospitality.jpeg'class='topic-pic'>
+                </div>
+            </div>
+        </div>
+        `;
+        container.innerHTML = hospitality;
+    }else if(e.target.id === 'football-link'){
+        const football =
+        `<div class='topic-container'>
+        <h1>Forza Lazio!!!</h1>
+            <div class='topic-image'>
+                <p>
+  
+                </p>
+                <div class='topic-pic-container'>
+                    <img src='./images/me-football.png'class='topic-pic'>
+                </div>
+            </div>
+        </div>
+        `;
+        container.innerHTML = football;
     }
 })
