@@ -3,6 +3,9 @@
 const mainContainer = document.getElementById('main-container');
 const container = document.getElementById('container');
 
+
+
+
 const home = `
     <div class="links-container">
         <h2>"No matter how long is the journey, You always start from a single step"</h2>
@@ -31,7 +34,7 @@ mainContainer.addEventListener('click', function(e){
     })
    
     if(e.target.id === 'music-link'){
-        let music = `
+        const music = `
     <div class='music-container'>
         <h1>Music has always been my main passion</h1>
         <div class='music-content'>
@@ -75,10 +78,10 @@ mainContainer.addEventListener('click', function(e){
     `
         container.innerHTML = music;
     }else if(e.target.id === 'rome-link'){
-        let rome = 
-        `<div class='rome-container'>
+        const rome = 
+        `<div class='topic-container'>
         <h1>Rome is my Eternal City</h1>
-            <div class='rome-image'>
+            <div class='topic-image'>
                 <p>Rome is my city. Obviously I mean The Eternal City, the one and unique Rome that you can find in central Italy. I was born e grew up there.
                     I’ve always been fascinated by the mysteries and stories that my city carries with it.
                     Somebody says that it is an open-sky museum and it is true, but is not just that.
@@ -90,13 +93,57 @@ mainContainer.addEventListener('click', function(e){
                     Even if now I don’t leave there anymore, I feel like the more I stay away from Rome the more I need it and I can’t wait to go back.
                     I would have much more to say, but the reality is that I don’t think I’m good enough to say it all and also I don’t have much space on the page, so I stop here, hoping that one day you’ll know (if you don’t know already) what I tried to talk about.
                 </p>
-                <div class='rome-pic-container'>
-                    <img src='./images/me-rome.png'class='rome-pic'>
+                <div class='topic-pic-container'>
+                    <img src='./images/me-rome.png'class='topic-pic'>
                 </div>
             </div>
         </div>
         `;
 
         container.innerHTML = rome;
+    }else if(e.target.id === 'london-link'){
+        const london =
+        `<div class='topic-container'>
+        <h1>The World in London</h1>
+            <div class='topic-image'>
+                <p>
+                London is my second home, my second opportunity and a new life for me. I’ve been living in London for five years straight now, after coming here for a year the first time in 2014. 
+                I’ve always been fascinated by the amount of different cultures that can coexist in the same city, London feels like the world in a single city, there are a lot of things happening in here at every moment. 
+                Living in here gives you the opportunity to be anyone you want to be in life. For me it was a bit hard at the beginning because when I came here I didn’t speak much English and the little English that I remembered from school, wasn’t actually very useful.
+                Coming from that, the first few months in London I had to take any job opportunity that I had, and the first ones weren’t the most pleasant ones.
+                Now after few years I can say that I can have more control over my career path, and just being a “Londoner” for some time gave me the confidence that will and persistence can help you achieve anything if you really want it.
+                I thank this city every day, because it made me switch my mentality, and even if I have a lot to do, I know that I can do it.
+                </p>
+                <div class='topic-pic-container'>
+                    <img src='./images/me-london.jpg'class='topic-pic'>
+                </div>
+            </div>
+        </div>
+        `;
+        container.innerHTML = london;
+    }else if(e.target.id === 'finance-link'){
+        const finance =
+        `<div class='topic-container'>
+        <h1>The Wolf of Willesden Green</h1>
+            <div class='topic-image'>
+                <p>
+                In my current job, I have the possibility to meet a lot of people that work in finance or do business with finance related companies. 
+                This grew in me fair interest in the topic and things related to it. In the last 3 years I started gathering high informations about the finance world and the stock market exchange and I find it very fascinating, you can make a lot of money just betting on the right horse, but you can also lose a lot. 
+                It seems like a game, but entire companies and people lives base their future on this “game”. I didn’t have any idea that our economy was so complicated and so fragile at the same time.
+                I decided to start playing a bit of the game, putting little money on it, knowing that I could lose it all. For me it’s not about money itself, but it is about being present in the world we’re in. 
+                Playing with the stock market makes you research and get informed about the economic trends and the situation our society is heading to.
+                Of course nowadays when you talk about finance you can’t leave the “Crypto world” aside. I’m really excited about crypto and the blockchain technology behind it. 
+                I’m actually more invested in cryptocurrencies than in the stock market, but I still think that most of the cryptocurrencies are actually a Frode and that they’re gonna disappear. 
+                The blockchain technology dough, it is something that is here to stay and shape our future together with AI.
+                I actually got into coding, because one day eventually I want to work with blockchains too.
+  
+                </p>
+                <div class='topic-pic-container'>
+                    <img src='./images/me-finance.jpeg'class='topic-pic'>
+                </div>
+            </div>
+        </div>
+        `;
+        container.innerHTML = finance;
     }
 })

@@ -88,7 +88,7 @@ header a img:hover{
 
 footer{
     grid-area: footer;
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 .main-container{
@@ -255,27 +255,28 @@ p{
 
 /*rome*/
 
-.rome-container{
+.topic-container{
     margin: 0 auto;
     width:100%;
+    padding-top: 40px;
 
     background: rgba(0, 0, 0, 0.6);
 }
 
-.rome-image{
+.topic-image{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
 
 
-.rome-pic-container{
+.topic-pic-container{
     width:80%;
     max-width: 500px;
     margin: 0 auto;
 }
 
-.rome-pic{
+.topic-pic{
     margin: 0 auto;
     border-radius: 5px ;
     width:100%;
@@ -370,7 +371,7 @@ p{
         height:30px;
     }
 
-    .rome-image{
+    .topic-image{
         margin-top: 30px;
         width: 100%;
         display: flex;
@@ -378,13 +379,17 @@ p{
         justify-content: center;
     }
 
-    .rome-image p{
+    .topic-image p{
         display: block;
         margin: 0 auto;
         max-width:400px;
     }
 
-    .rome-pic-container{
+    .topic-pic{
+        max-height: 650px;
+    }
+
+    .topic-pic-container{
         max-width:400px;
     }
     
@@ -398,11 +403,11 @@ p{
     footer{
         background-color: rgba(0, 0, 0, 0.8);
     }
-    .rome-image p{
+    .topic-image p{
         max-width:600px;
     }
 
-    .rome-pic-container{
+    .topic-pic-container{
         max-width:600px;
     }
     
