@@ -204,12 +204,14 @@ mainContainer.addEventListener('click', function(e){
                 I also enjoy playing football five a side, even dough since I moved to London I haven’t played much, but who knows what the future may unfold.
             </p>
                 <div class="projects-links">
-                <a href="#"><img src='./images/projects-pics/death fight.png' class='project-pic' alt='death fight'></a>
-                <a href="#"><img src='./images/projects-pics/food ordering app.png' class='project-pic' alt='food ordering app'></a>
-                <a href="#"><img src='./images/projects-pics/gameboard.png' class='project-pic' alt='gameboard'></a>
-                <a href="#"><img src='./images/projects-pics/ideal city finder.png' class='project-pic' alt='ideal city finder'></a>
-                <a href="#"><img src='./images/projects-pics/twitter clone.png' class='project-pic' alt='twitter clone'></a>
-                <a href="#"><img src='./images/projects-pics/password generator.png' class='project-pic' alt='password generator'></a>
+                <a href="https://lucagi89.github.io/Game-fac/"><img src='./images/projects-pics/death fight.png' class='project-pic' alt='death fight'></a>
+                <a href="https://lucagi89.github.io/splash-page/"><img src='./images/projects-pics/food ordering app.png' class='project-pic' alt='food ordering app'></a>
+                <a href="https://lucagi89.github.io/Scoreboard/"><img src='./images/projects-pics/gameboard.png' class='project-pic' alt='gameboard'></a>
+                <a href="https://lucagi89.github.io/City-Finder2/"><img src='./images/projects-pics/ideal city finder.png' class='project-pic' alt='ideal city finder'></a>
+                <a href="https://lucagi89.github.io/Twimba-Twitter-Clone/"><img src='./images/projects-pics/twitter clone.png' class='project-pic' alt='twitter clone'></a>
+                <a href="https://lucagi89.github.io/Password-generator/"><img src='./images/projects-pics/password generator.png' class='project-pic' alt='password generator'></a>
+                <a href="https://lucagi89.github.io/Guitars-gallery/"><img src='./images/projects-pics/guitars gallery.png' class='project-pic' alt='guitars gallery'></a>
+                <a href="https://lucagi89.github.io/Clock/"><img src='./images/projects-pics/clock cicle.png' class='project-pic' alt='clock cicles'></a>
                 </div>
             </div>
         </div>
