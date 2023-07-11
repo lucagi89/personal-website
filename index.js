@@ -176,7 +176,12 @@ mainContainer.addEventListener('click', function(e){
         <h1>Forza Lazio!!!</h1>
             <div class='topic-image'>
                 <p>
-  
+                Football in Italy is almost like a religion. Some people live only for football and spend entire weekends following the team they support in other cities or nations and they don’t talk about anything else. 
+                For me this is a bit too much, but I consider football an important part of my everyday life. I support Lazio witch is a team based in Rome, and everyday I keep myself updated on its news and topics and I watch every match I can.
+                It is a thing that I do since when I was I kid, in fact my dad used to take me to the stadium sometimes and I really enjoyed it. At the beginning for me football was only an excuse to interact with adults and friends, and I wasn’t really interested on the actual matter. 
+                But when I was 11 I started to play with my local football team and I started to get more into the soul of this sport. I became more passionate and I began to watch matches on my own and checking all the news, at that point my dream was to become a football player. But of course my lack of a big talent, didn’t agree with that. 
+                Back in these days I really enjoy watching Lazio’s matches, but a part from it, I don’t really follow everything that is going on in football if it does’t concern Lazio.
+                I also enjoy playing football five a side, even dough since I moved to London I haven’t played much, but who knows what the future may unfold.
                 </p>
                 <div class='topic-pic-container'>
                     <img src='./images/me-football.png'class='topic-pic'>
@@ -185,5 +190,9 @@ mainContainer.addEventListener('click', function(e){
         </div>
         `;
         container.innerHTML = football;
+    }else{
+        const coding = `
+        `;
+        container.innerHTML = coding;
     }
 })
