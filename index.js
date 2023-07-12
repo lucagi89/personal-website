@@ -204,6 +204,7 @@ mainContainer.addEventListener('click', function(e){
                 I also enjoy playing football five a side, even dough since I moved to London I haven’t played much, but who knows what the future may unfold.
             </p>
                 <div class="projects-links">
+                <h2>Some of the projects I've done</h2>
                 <a href="https://lucagi89.github.io/Game-fac/"><img src='./images/projects-pics/death fight.png' class='project-pic' alt='death fight'></a>
                 <a href="https://lucagi89.github.io/splash-page/"><img src='./images/projects-pics/food ordering app.png' class='project-pic' alt='food ordering app'></a>
                 <a href="https://lucagi89.github.io/Scoreboard/"><img src='./images/projects-pics/gameboard.png' class='project-pic' alt='gameboard'></a>
@@ -212,6 +213,7 @@ mainContainer.addEventListener('click', function(e){
                 <a href="https://lucagi89.github.io/Password-generator/"><img src='./images/projects-pics/password generator.png' class='project-pic' alt='password generator'></a>
                 <a href="https://lucagi89.github.io/Guitars-gallery/"><img src='./images/projects-pics/guitars gallery.png' class='project-pic' alt='guitars gallery'></a>
                 <a href="https://lucagi89.github.io/Clock/"><img src='./images/projects-pics/clock cicle.png' class='project-pic' alt='clock cicles'></a>
+                <a href="https://lucagi89.github.io/people-counter/"><img src='./images/projects-pics/people counter.png' class='project-pic' alt='people counter'></a>
                 </div>
             </div>
         </div>
