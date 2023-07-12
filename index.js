@@ -226,6 +226,7 @@ mainContainer.addEventListener('click', function(e){
 document.getElementById("message-btn").addEventListener("click", renderMessageForm);
 
 function renderMessageForm(){
+    document.getElementById('images-container').classList.add('hidden')
     const formContainer = document.getElementById("form-container");
     formContainer.classList.toggle("hidden");
     const messageForm = `
@@ -259,11 +260,13 @@ function renderMessageForm(){
         if(e.target.id === "close-btn"){
             formContainer.innerHTML = "";
             formContainer.classList.add("hidden");
+            document.getElementById('images-container').classList.remove('hidden')
         }
     });
     
     formContainer.addEventListener("submit", (e) => {
         e.preventDefault();
+        document.getElementById('images-container').classList.remove('hidden')
         const name = document.getElementById("name").value;
         const surname = document.getElementById("surname").value;
         const email = document.getElementById("email").value;
