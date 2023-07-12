@@ -86,11 +86,20 @@ footer{
     bottom:10px;
 }
 
-.home-btn img{
+.home-btn img,
+.message-btn img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
+.message-btn{
+    width:50px;
+    position: fixed;
+    right: 10px;
+    top:10px;
+}
+
 
 .main-container{
     position: relative;
