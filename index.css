@@ -52,7 +52,7 @@ footer{
 }
 
 header h2{
-    font-size: 50px;
+    font-size: 3vw;
 }
 header{
     line-height:50px;
@@ -358,10 +358,18 @@ p{
     padding:30px;
 }
 
+.topic-image p{
+    min-width: 500px;
+}
+
 
 .topic-pic-container{
     width:80%;
+    min-width: 500px;
+    height:550px;
+    line-height: 550px;
     max-width: 500px;
+    border:solid red;
 }
 
 .topic-pic{
