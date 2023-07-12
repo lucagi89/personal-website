@@ -1,10 +1,7 @@
 
-
+import { messages } from './messages.js';
 const mainContainer = document.getElementById('main-container');
 const container = document.getElementById('container');
-
-
-
 
 const home = `
     <div class="links-container">
@@ -19,7 +16,7 @@ const home = `
 container.innerHTML = home;
 
 
-//music
+// render the various topic pages
 
 mainContainer.addEventListener('click', function(e){
     document.getElementById('images-container').classList.add('hidden')
@@ -220,4 +217,68 @@ mainContainer.addEventListener('click', function(e){
         `;
         container.innerHTML = coding;
     }
-})
+});
+
+//render message form
+document.getElementById("message-btn").addEventListener("click", renderMessageForm);
+
+function renderMessageForm(){
+    const formContainer = document.getElementById("form-container");
+    formContainer.classList.toggle("hidden");
+    const messageForm = `
+    <h3>Send me a message</h3> 
+        <button id='close-btn' class='close-btn'>X</button>
+        <form class='message-form'>
+            <div class='form-inputs'>
+                <label for='name'>Name</label>
+                <input type='text' id='name' name='name' placeholder='Your name' required>
+            </div>
+            <div class='form-inputs'>
+                <label for='surname'>Surname</label>
+                <input type='text' id='surname' name='surname' placeholder='Your surname' required>
+            </div>
+            <div class='form-inputs'>
+                <label for='email'>Email</label>
+                <input type='email' id='email' name='email' placeholder='Your email' required>
+            </div>
+            <div class='form-inputs textarea'>
+                <label for='message'>Message</label>
+                <textarea id='message' name='message' placeholder='Your message' required></textarea>
+            </div>
+            <div class='form-inputs'>
+                <input type='submit' value='Send'>
+            </div>
+        </form>
+    `;
+    formContainer.innerHTML = messageForm;
+
+    formContainer.addEventListener("click", (e) => {
+        if(e.target.id === "close-btn"){
+            formContainer.innerHTML = "";
+            formContainer.classList.add("hidden");
+        }
+    });
+    
+    formContainer.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const name = document.getElementById("name").value;
+        const surname = document.getElementById("surname").value;
+        const email = document.getElementById("email").value;
+        const message = document.getElementById("message").value;
+        
+        const messageObj = {
+            name: name,
+            surname: surname,
+            email: email,
+            message: message
+        }
+
+        messages.push(messageObj);
+        console.log(messages);
+
+        formContainer.innerHTML = "";
+        formContainer.classList.toggle("hidden");
+        });
+
+
+}
