@@ -4,7 +4,7 @@ const mainContainer = document.getElementById('main-container');
 const container = document.getElementById('container');
 
 const home = `
-    <div class="links-container">
+    <div class="phrase-container">
         <h2>"No matter how long is the journey, You always start from a single step"</h2>
         <h3>Today I'll show you a bit of my journey...just hover and click around!</h3>
     </div>
