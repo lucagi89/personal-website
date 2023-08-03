@@ -206,9 +206,9 @@ mainContainer.addEventListener('click', function(e){
                 <div class="projects-links">
                 <h2>Some of the projects I've done</h2>
                 <a href="https://lucagi89.github.io/Game-fac/"><img src='./images/projects-pics/death fight.png' class='project-pic' alt='death fight'></a>
-                <a href="https://lucagi89.github.io/splash-page/"><img src='./images/projects-pics/food ordering app.png' class='project-pic' alt='food ordering app'></a>
+                <a href="https://voluble-longma-55be36.netlify.app/"><img src='./images/projects-pics/food ordering app.png' class='project-pic' alt='food ordering app'></a>
                 <a href="https://lucagi89.github.io/Scoreboard/"><img src='./images/projects-pics/gameboard.png' class='project-pic' alt='gameboard'></a>
-                <a href="https://lucagi89.github.io/City-Finder2/"><img src='./images/projects-pics/ideal city finder.png' class='project-pic' alt='ideal city finder'></a>
+                <a href="https://tangerine-torrone-6574f4.netlify.app/"><img src='./images/projects-pics/ideal city finder.png' class='project-pic' alt='ideal city finder'></a>
                 <a href="https://lucagi89.github.io/Twimba-Twitter-Clone/"><img src='./images/projects-pics/twitter clone.png' class='project-pic' alt='twitter clone'></a>
                 <a href="https://lucagi89.github.io/Password-generator/"><img src='./images/projects-pics/password generator.png' class='project-pic' alt='password generator'></a>
                 <a href="https://lucagi89.github.io/Guitars-gallery/"><img src='./images/projects-pics/guitars gallery.png' class='project-pic' alt='guitars gallery'></a>
