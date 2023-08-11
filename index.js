@@ -193,13 +193,13 @@ mainContainer.addEventListener('click', function(e){
             <h1>My Coding Journey</h1>
             <div class="topic-image">
             <p>
-            I always looked at coding like this super complicated thing that only math geniuses and people who grew up with a computer in their hands could do.
-            I’ve never even met somebody who wrote code as a profession, up until my late twenties. I think that being surrounded by mostly people with “regular” jobs in my life didn’t help me towards the tech industry.
-            What changed then? I still see coding like a super complicated thing, but now it is something that I believe I can learn and do. 
-            I started gradually, at the beginning it was just interest towards cryptocurrencies and then I started looking at the blockchain technology, and then after watching some tutorials on how to code for blockchain in a programming language called Solidity, I felt that I needed to start from the basics of web development. So I started watching some tutorials online about the web development triad, Html-Css-Javascript.
-            The more I practiced what I had learnt, the more I enjoyed it. And I really enjoy coding, there’s always a challenge, always something that you don’t know, always a way to improve.
-            I find that it keeps your brain awake and focused and I like this feeling, and when you solve a problem that you got stuck with is like scoring a goal, it is exciting and gratifying.
-            I want to learn everything in Web Development and beyond, and also after I got confident enough I want to learn Blockchain Development as well, because I believe that the Blockchain technology is gonna be the future of the internet together with Artificial Intelligence.
+            I always looked at coding like this super complicated thing that only math geniuses and people who grew up with a computer in their hands could do.<br>
+            I’ve never even met somebody who wrote code as a profession, up until my late twenties.<br> I think that being surrounded by mostly people with “regular” jobs in my life didn’t help me towards the tech industry.<br>
+            What changed then? I still see coding like a super complicated thing, but now it is something that I believe I can learn and do.<br> 
+            I started gradually, at the beginning it was just interest towards cryptocurrencies and then I started looking at the blockchain technology,<br> and then after watching some tutorials on how to code for blockchain in a programming language called Solidity, I felt that I needed to start from the basics of web development.<br> So I started watching some tutorials online about the web development triad, Html-Css-Javascript.
+            The more I practiced what I had learnt, the more I enjoyed it. And I really enjoy coding, there’s always a challenge, always something that you don’t know, always a way to improve.<br>
+            I find that it keeps your brain awake and focused and I like this feeling, and when you solve a problem that you got stuck with is like scoring a goal, it is exciting and gratifying.<br>
+            I want to learn everything in Web Development and beyond, and also after I got confident enough I want to learn Blockchain Development as well, because I believe that the Blockchain technology is gonna be the future of the internet together with Artificial Intelligence.<br>
             I know that the road to walk is still long, but I want this to be my job and I want to be able to say that I’m a Web Developer. 
 
             </p>
